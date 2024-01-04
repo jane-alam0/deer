@@ -3,7 +3,7 @@
     padding: 0;
 }
 .header{
-    background: url("images/deer1.jpg");
+    background: url("images/deer2.jpg");
     height: 100vh;
     background-attachment:scroll;
     background-position: center;
@@ -95,7 +95,13 @@ marquee{
         flex-direction: column;
     }
     .header h1{
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
-
+    .header{
+       
+        height: 80vh;
+        background-attachment:scroll;
+        background-position: center;
+        background-size: cover;
+    }
   }
