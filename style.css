@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url("images/deer1.jpg");
+    height: 100vh;
+    background-attachment:scroll;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 51% 100%, 50% 100%, 0 90%);
+    margin-bottom: 3rem;
+}
+.header h1{
+        padding:3rem;
+        text-align: center;
+        font-size: 5rem;
+        background: -webkit-linear-gradient(45deg ,red,rgb(20, 20, 100));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+.section h1{
+    font-size: 3.5rem;
+    color: rgb(130, 41, 138);
+    text-align: center;
+    padding: 3rem 0;
+}
+.section , .deer-img {
+    background-image: linear-gradient(45deg, pink, rgb(35, 121, 179));
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+.section div{
+    width: 70%;
+    margin: auto;
+}
+.section div p{
+    font-size: 20px;
+    color: rgb(91, 119, 119);
+}
+.deer-img h1{
+    font-size: 3rem;
+    color: rgb(204, 88, 34);
+    text-align: center;
+    padding: 2rem;
+}
+.img-flex{
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    align-items: center;
+
+}
+.img-flex div{
+    width: 400px;
+    height: 400px;
+}
+
+.img-photo{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    /* object-position:10px 0 ; */
+}
+button{
+    padding: .5rem;
+    color: white;
+    background-color: rgb(123, 214, 61);
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: .4s;
+}
+button:hover{
+    background-color: rgb(38, 95, 76);
+}
+button:focus{
+    background-color: rgb(95, 38, 81);
+}
+.fotter{
+    height: 5rem;
+    border-left: 8px solid rgb(95, 17, 89);
+}
+marquee{
+    font-size: 27px;
+    color: chocolate;
+}
+@media only screen and (max-width: 600px) {
+    .section div {
+        width: 90%;
+    }
+    .img-flex{
+        flex-direction: column;
+    }
+    .header h1{
+        font-size: 4.5rem;
+    }
+
+  }
